@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circular Reference Number Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Circular Reference Number Generator</h1>
+    <form id="circularForm">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" required>
+      <label for="from">From:</label>
+      <input type="text" id="from" required>
+      <label for="to">To:</label>
+      <input type="text" id="to" required>
+      <button type="submit">Generate Reference Number</button>
+    </form>
+    <div id="referenceNumber"></div>
+
+    <hr>
+
+    <label for="referenceInput">Enter Reference Number to Lookup:</label>
+    <input type="text" id="referenceInput" placeholder="Enter reference number">
+    <div id="lookupResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
